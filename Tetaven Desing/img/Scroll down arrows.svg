@@ -1,0 +1,5 @@
+<svg id="Scroll_down_arrows" data-name="Scroll down arrows" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <path id="Shape" d="M0,0H32V32H0Z" fill="none"/>
+  <path id="Path_94" data-name="Path 94" d="M.391,2.276A1.333,1.333,0,0,1,2.276.391l8,8a1.333,1.333,0,0,1,.04,1.844l-7.333,8a1.333,1.333,0,0,1-1.966-1.8L7.488,9.373Z" transform="translate(25.333 6) rotate(90)" fill="#6b778d"/>
+  <path id="Path_94-2" data-name="Path 94" d="M2.276,10.276A1.333,1.333,0,1,1,.391,8.391l8-8A1.333,1.333,0,0,1,10.234.35l8,7.333a1.333,1.333,0,0,1-1.8,1.966L9.373,3.179Z" transform="translate(25.333 26) rotate(180)" fill="#6b778d" opacity="0.3"/>
+</svg>

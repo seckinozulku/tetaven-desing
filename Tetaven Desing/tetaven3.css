@@ -1,0 +1,397 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 7px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    width: 100%;
+}
+
+/* NavBar */
+
+header {
+    margin: 5px 95px;
+}
+
+.nav-link {
+    color: #232b65;
+    font-weight: 700;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+@media (min-width: 991.98px) {
+    .nav-button {
+        background-color: #232B65;
+        color: white;
+        border-radius: 5px;
+        padding: 10px 20px !important;
+    }
+}
+
+.navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media (min-width: 991.98px) {
+    .navbar-nav {
+        align-items: center;
+        margin: 0;
+    }
+}
+
+.navbar-toggler
+/* Main Text */
+
+.contents {
+    height: 350px;
+}
+
+.slider-title, .slider-title-2 {
+    font-size: 6.8rem;
+    letter-spacing: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.slider-title-2 {
+    font-weight: 700;
+}
+
+/* Slider */
+
+.header-bg-image {
+    background: url(img/headerback.png);
+    background-size: cover;
+    min-height: 533px;
+}
+
+.scroll {
+    background-color: rgba(107, 119, 141, 0.5);
+    width: 100%;
+    height: 192px;
+    z-index: 2;
+}
+
+.scroll-text {
+    color: #6b778d;
+    font-size: 2.6rem;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.scroll-arrow {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Divider */
+
+.section {
+    text-align: center;
+}
+
+.small-text {
+    font-size: 1.9rem;
+}
+
+.medium-text {
+    font-size: 2.4rem;
+}
+
+.large-text {
+    font-size: 5.5rem;
+}
+
+.font-weight {
+    font-weight: 500;
+}
+
+.font-color-gray {
+    color: #77838f;
+}
+
+.contact-button {
+    width: 292px;
+    height: 44px;
+    background-color: #fff;
+    border: 2px solid #232b65;
+    color: #232b65;
+    font-family: 'Rubik';
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+/* About Us */
+
+@media screen and (max-width: 991.98px) {
+    .about-us {
+        text-align: center;
+    }
+}
+
+.slider-image, .slider-image-2 {
+    height: auto;
+    max-width: 100%;
+}
+
+.slider-image {
+    margin-right: 20px;
+}
+
+.iletişim-button {
+    background-color: #fff;
+    border: 1px solid #232b65;
+    color: #222b45;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    width: 182px;
+    height: 49px;
+    border-radius: 5px;
+}
+
+/* People */
+
+.card-img-top {
+    height: 124px;
+    width: 124px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    border: 0;
+}
+
+.card-title {
+    font-size: 2.8rem;
+}
+
+.card-text {
+    font-size: 1.7rem;
+}
+
+.card-img-right {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+/* Miniyol Cards */
+
+.card-mini {
+    background-color: #fafafa;
+    color: #232b65;
+    padding: 30px;
+}
+
+.card-text-mini {
+    font-size: 2.3rem;
+}
+
+.started-button {
+    color: #6e38f7;
+    border: 1px solid #6e38f7;
+    width: 100%;
+    height: 44px;
+    font-size: 2rem;
+}
+
+.img-container {
+    height: 155px;
+    width: 100%;
+}
+
+/* Carrer */
+
+.bg-office {
+    color: white;
+    min-height: 785px;
+    background: linear-gradient(0deg, rgba(35, 43, 101, 0.726), rgba(35, 43, 101, 0.726)), url(img/bg-office.jpg);
+    background-size: cover;
+}
+
+.bg-office-container {
+    min-height: 785px;
+}
+
+.xlarge-text {
+    font-size: 6rem;
+}
+
+.xmedium-text {
+    font-size: 3.5rem;
+}
+
+.form-area {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1199.98px) {
+    .form-area {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .form-area {
+        margin-top: 50px;
+    }
+}
+
+.form-input {
+    width: 100%;
+    height: 53px;
+    padding: 17px;
+    border-radius: 5px;
+}
+
+.button-container {
+    width: 100%;
+}
+
+/* Apply Form */
+
+.form-group {
+    font-size: 2rem;
+}
+
+.form-control {
+    height: 52px;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+#idea {
+    height: 137px;
+}
+
+/* Contact Map */
+
+.map {
+    width: 100%;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Contact Area */
+
+.contact-row {
+    margin-top: -10%;
+    position: relative;
+}
+
+.contact {
+    background-color: #232b65;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 8px;
+}
+
+/* Last Divider */
+
+.lorem-button {
+    border-radius: 20px;
+    background-color: #e8e9ef;
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Feed Back */
+
+.feed-input {
+    width: 100%;
+    height: 53px;
+    padding: 17px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    font-size: 2rem;
+}
+
+.submit-button {
+    width: 150px;
+    height: 50px;
+    background-color: #232b60;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 195px;
+    background-color: hsl(40, 13%, 95%);
+}
+
+.footer-links {
+    margin-left: auto;
+}
+
+.tetaven-adress {
+    font-size: 1.6rem;
+}
+.logo{
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .center-in-md-screen {
+        text-align: center;
+        justify-content: center !important;
+        margin: 20px;
+    }
+    footer {
+        height: auto;
+    }
+    .footer-container {
+        display: unset !important;
+        align-self: center;
+        text-align: center;
+    }
+    .footer-links {
+        margin: 20px 47px;
+    }
+    .nav-responsive {
+        border: solid rgb(204, 204, 204);
+        border-width: 1px 1px 0 1px;
+        text-align: center;
+        height: 40px;
+    }
+    .nav-responsive1{
+        border: solid rgb(204, 204, 204);
+        border-width: 1px 1px 1px 1px;
+        text-align: center;
+        height: 40px;
+    }
+    .no-border-flag{
+        text-align: center;
+        height: 40px;
+    }
+    .nav-button {
+        margin: 0 !important;
+    }
+    .slider-title-2{
+        font-size: 5.5rem;
+        letter-spacing: 0px;
+    }
+    .logo{
+        margin-left: 0;
+    }
+}
